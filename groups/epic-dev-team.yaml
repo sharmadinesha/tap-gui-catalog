@@ -1,0 +1,66 @@
+apiVersion: backstage.io/v1alpha1
+kind: Group
+metadata:
+  name: epic-dev-team
+  description: Epic Dev Team
+  links:
+    - url: https://github.com/ageszone
+      title: Epic Dev Team GitHub
+    - url: https://tanzu.vmware.com/support
+      title: Tanzu Support Website
+spec:
+  type: organization
+  profile:
+    displayName: Epic Devs
+    email: demo@tap.tanzu.xyz
+    picture: https://raw.githubusercontent.com/kubeages/tap-gui-catalog/main/img/org-logo%400.5x.png
+  children: []
+
+---
+apiVersion: backstage.io/v1alpha1
+kind: User
+metadata:
+  name: ages
+spec:
+  profile:
+    displayName: Antonio Gallego
+    email: agallego@vmware.com
+    picture: https://ca.slack-edge.com/E8YCM8N9L-WK775FR28-45c5861bc6f9-72
+  memberOf: [epic-dev-team]
+
+---
+apiVersion: backstage.io/v1alpha1
+kind: User
+metadata:
+  name: jose
+spec:
+  profile:
+    displayName: Jose Manzaneque
+    email: jmanzaneque@vmware.com
+    picture: https://ca.slack-edge.com/E8YCM8N9L-WKUQQQU81-4dbe21d1cef1-192
+  memberOf: [epic-dev-team]
+
+---
+apiVersion: backstage.io/v1alpha1
+kind: User
+metadata:
+  name: alberto
+spec:
+  profile:
+    displayName: Alberto Fernandez
+    email: falberto@vmware.com
+    picture: https://ca.slack-edge.com/E8YCM8N9L-U025ABBRAKT-322e2cd71085-512
+  memberOf: [epic-dev-team]
+
+---
+apiVersion: backstage.io/v1alpha1
+kind: User
+metadata:
+  name: javier
+spec:
+  profile:
+    displayName: Javier Lopez
+    email: jlopez@vmware.com
+    picture: https://ca.slack-edge.com/E8YCM8N9L-U01UZ6KH2BZ-ecc0d79e4713-512
+  memberOf: [epic-dev-team]
+

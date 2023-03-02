@@ -1,1 +1,1 @@
-# UKI-Tanzu-SE TAP GUI Catalog
+# TAP GUI Catalog

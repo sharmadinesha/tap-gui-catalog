@@ -1,4 +1,4 @@
-site_name: 'uki-tanzu-se TAP GUI catalog'
+site_name: 'ESE Team TAP GUI catalog'
 
 nav:
   - The Catalog: index.md
