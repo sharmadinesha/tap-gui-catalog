@@ -6,5 +6,5 @@ metadata:
   annotations:
     'backstage.io/techdocs-ref': dir:.
 spec:
-  owner: uki-tanzu-se-org
+  owner: epic-dev-team
   domain: tap-gui-domain
