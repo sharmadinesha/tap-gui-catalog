@@ -11,5 +11,5 @@ metadata:
 spec:
   type: service
   lifecycle: production
-  owner: uki-tanzu-se-org
+  owner: epic-dev-team
   system: tap-gui
