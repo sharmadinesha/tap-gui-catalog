@@ -6,8 +6,8 @@ metadata:
   links:
     - url: http://example.com/domain/cloud-apps/
       title: Domain Readme
-    - url: http://example.com/domains/cloud-apps/dashboard
-      title: Cloud Apps Dashboard
+    - url: https://tap-gui.tap.kubeagesaz.com/
+      title: TAP GUI Dashboard
       icon: dashboard
   annotations:
     'backstage.io/techdocs-ref': dir:.
