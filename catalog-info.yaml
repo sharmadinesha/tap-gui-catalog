@@ -8,7 +8,7 @@ metadata:
 spec:
   targets:
     - ./components/tap-gui.yaml
-    - ./groups/epic-dev-team.yaml
+    - ./groups/dxc-devops-team.yaml
     - ./systems/tap-gui-system.yaml
     - ./domains/tap-gui-domain.yaml
     - ./domains/hello-domain.yaml
