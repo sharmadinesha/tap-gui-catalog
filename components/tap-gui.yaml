@@ -11,5 +11,5 @@ metadata:
 spec:
   type: service
   lifecycle: production
-  owner: epic-dev-team
+  owner: dxc-devops-team
   system: tap-gui
