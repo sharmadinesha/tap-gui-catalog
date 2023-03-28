@@ -1,0 +1,42 @@
+apiVersion: backstage.io/v1alpha1
+kind: Group
+metadata:
+  name: dxc-devops-team
+  description:  Dev Team
+  links:
+    - url: https://github.com/sharmadinesha
+      title: DXC dxc-devops-team Team GitHub
+    - url: https://tanzu.vmware.com/support
+      title: Tanzu Support Website
+spec:
+  type: organization
+  profile:
+    displayName: DXC dxc-devops-team
+    email: demo@tap.tanzu.xyz
+    picture: https://github.com/sharmadinesha/tap-gui-catalog/blob/main/img/dxc.img
+  children: []
+
+---
+apiVersion: backstage.io/v1alpha1
+kind: User
+metadata:
+  name: Dinesha
+spec:
+  profile:
+    displayName: Dinesha Sharma
+    email: dinesha.sharma@dxc.com
+    picture: 
+  memberOf: [dxc-devops-team]
+
+---
+apiVersion: backstage.io/v1alpha1
+kind: User
+metadata:
+  name: Tony
+spec:
+  profile:
+    displayName: Felipe Antonio Puerto
+    email: fpuerto@dxc.com
+    picture: 
+  memberOf: [dxc-devops-team]
+
