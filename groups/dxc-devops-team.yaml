@@ -25,7 +25,7 @@ spec:
   profile:
     displayName: Dinesha Sharma
     email: dinesha.sharma@dxc.com
-    picture: 
+    picture: https://github.com/sharmadinesha/tap-gui-catalog/blob/main/img/dxc.img?raw=true
   memberOf: [dxc-devops-team]
 
 ---
@@ -37,6 +37,6 @@ spec:
   profile:
     displayName: Felipe Antonio Puerto
     email: fpuerto@dxc.com
-    picture: 
+    picture: https://github.com/sharmadinesha/tap-gui-catalog/blob/main/img/dxc.img?raw=true
   memberOf: [dxc-devops-team]
 
