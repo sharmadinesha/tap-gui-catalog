@@ -1,0 +1,8 @@
+apiVersion: backstage.io/v1alpha1
+kind: System
+metadata:
+  name: fitness-store
+  description: ACME Shopping fitness-store System
+spec:
+  owner: dxc-devops-team
+  domain: online-stores
